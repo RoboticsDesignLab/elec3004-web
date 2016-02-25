@@ -3,6 +3,6 @@ version: 1.0.0
 description: "Saturn Theme customised for use on ELEC3004 Course Website"
 icon: crosshairs
 author:
-     name: Patrick Mahoney
-          email: p.mahoney2@uq.edu.au
-          url: http://robotics.itee.uq.edu.au/dokuwiki/ 
+  name: Patrick Mahoney
+  email: 'p.mahoney2@uq.edu.au'
+  url: http://robotics.itee.uq.edu.au/dokuwiki/ 
