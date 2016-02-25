@@ -1,0 +1,19 @@
+{% block content %}
+    {{ page.content }}
+    <ol>
+    {% for module in page.children() %}
+    {% if (module.header.publish_date is not defined) or (date(module.header.publish_date) < date()) %}
+    <li>
+    
+    {{date(module.publish_date) < date() }}
+        <div>
+        {{ module.title }}
+        </div>
+        <div>
+        {{ module.content }}
+        </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </ol>
+{% endblock %}
