@@ -1,0 +1,18 @@
+# Sass
+.sass-cache
+
+# Grav Specific
+data/*
+plugins/*
+!plugins/.*
+accounts/.*
+
+# OS Generated
+.DS_Store*
+thumbs.db
+Thumbs.db
+*.swp
+
+# phpstorm
+.idea/*
+localhost/config/security.yaml
