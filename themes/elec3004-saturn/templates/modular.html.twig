@@ -1,0 +1,17 @@
+{% embed 'partials/base.html.twig' %}
+
+  {% set collection = page.collection() %}
+
+  {% block content %}
+
+    {{ page.content }}
+
+    {% for child in collection %}
+        {{ child.content }}
+    {% endfor %}
+
+  {% endblock %}
+
+{% endembed %}
+
+
