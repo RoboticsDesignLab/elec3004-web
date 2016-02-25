@@ -3,6 +3,7 @@
 
 # Grav Specific
 data/*
+!data/.gitkeep
 plugins/*
 !plugins/.*
 accounts/.*
