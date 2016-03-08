@@ -2,10 +2,10 @@
 .sass-cache
 
 # Grav Specific
-data/*
-!data/.gitkeep
-plugins/*
-!plugins/.*
+#data/*
+#!data/.gitkeep
+#plugins/*
+#!plugins/.*
 accounts/.*
 
 # OS Generated
